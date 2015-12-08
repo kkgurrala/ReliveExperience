@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C87DE0641C16D0840021BD03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87DE0631C16D0840021BD03 /* AppDelegate.swift */; };
+		C87DE0661C16D0840021BD03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87DE0651C16D0840021BD03 /* ViewController.swift */; };
+		C87DE0691C16D0840021BD03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C87DE0671C16D0840021BD03 /* Main.storyboard */; };
+		C87DE06C1C16D0840021BD03 /* ReliveExperience.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C87DE06A1C16D0840021BD03 /* ReliveExperience.xcdatamodeld */; };
+		C87DE06E1C16D0840021BD03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C87DE06D1C16D0840021BD03 /* Assets.xcassets */; };
+		C87DE0711C16D0840021BD03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C87DE06F1C16D0840021BD03 /* LaunchScreen.storyboard */; };
+		C87DE07C1C16D0850021BD03 /* ReliveExperienceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87DE07B1C16D0850021BD03 /* ReliveExperienceTests.swift */; };
+		C87DE0871C16D0850021BD03 /* ReliveExperienceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87DE0861C16D0850021BD03 /* ReliveExperienceUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C87DE0781C16D0850021BD03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C87DE0581C16D0840021BD03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C87DE05F1C16D0840021BD03;
+			remoteInfo = ReliveExperience;
+		};
+		C87DE0831C16D0850021BD03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C87DE0581C16D0840021BD03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C87DE05F1C16D0840021BD03;
+			remoteInfo = ReliveExperience;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C87DE0601C16D0840021BD03 /* ReliveExperience.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReliveExperience.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87DE0631C16D0840021BD03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C87DE0651C16D0840021BD03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C87DE0681C16D0840021BD03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C87DE06B1C16D0840021BD03 /* ReliveExperience.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ReliveExperience.xcdatamodel; sourceTree = "<group>"; };
+		C87DE06D1C16D0840021BD03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C87DE0701C16D0840021BD03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C87DE0721C16D0840021BD03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C87DE0771C16D0850021BD03 /* ReliveExperienceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReliveExperienceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87DE07B1C16D0850021BD03 /* ReliveExperienceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReliveExperienceTests.swift; sourceTree = "<group>"; };
+		C87DE07D1C16D0850021BD03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C87DE0821C16D0850021BD03 /* ReliveExperienceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReliveExperienceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87DE0861C16D0850021BD03 /* ReliveExperienceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReliveExperienceUITests.swift; sourceTree = "<group>"; };
+		C87DE0881C16D0850021BD03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C87DE05D1C16D0840021BD03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87DE0741C16D0850021BD03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87DE07F1C16D0850021BD03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C87DE0571C16D0840021BD03 = {
+			isa = PBXGroup;
+			children = (
+				C87DE0621C16D0840021BD03 /* ReliveExperience */,
+				C87DE07A1C16D0850021BD03 /* ReliveExperienceTests */,
+				C87DE0851C16D0850021BD03 /* ReliveExperienceUITests */,
+				C87DE0611C16D0840021BD03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C87DE0611C16D0840021BD03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C87DE0601C16D0840021BD03 /* ReliveExperience.app */,
+				C87DE0771C16D0850021BD03 /* ReliveExperienceTests.xctest */,
+				C87DE0821C16D0850021BD03 /* ReliveExperienceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C87DE0621C16D0840021BD03 /* ReliveExperience */ = {
+			isa = PBXGroup;
+			children = (
+				C87DE0631C16D0840021BD03 /* AppDelegate.swift */,
+				C87DE0651C16D0840021BD03 /* ViewController.swift */,
+				C87DE0671C16D0840021BD03 /* Main.storyboard */,
+				C87DE06D1C16D0840021BD03 /* Assets.xcassets */,
+				C87DE06F1C16D0840021BD03 /* LaunchScreen.storyboard */,
+				C87DE0721C16D0840021BD03 /* Info.plist */,
+				C87DE06A1C16D0840021BD03 /* ReliveExperience.xcdatamodeld */,
+			);
+			path = ReliveExperience;
+			sourceTree = "<group>";
+		};
+		C87DE07A1C16D0850021BD03 /* ReliveExperienceTests */ = {
+			isa = PBXGroup;
+			children = (
+				C87DE07B1C16D0850021BD03 /* ReliveExperienceTests.swift */,
+				C87DE07D1C16D0850021BD03 /* Info.plist */,
+			);
+			path = ReliveExperienceTests;
+			sourceTree = "<group>";
+		};
+		C87DE0851C16D0850021BD03 /* ReliveExperienceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C87DE0861C16D0850021BD03 /* ReliveExperienceUITests.swift */,
+				C87DE0881C16D0850021BD03 /* Info.plist */,
+			);
+			path = ReliveExperienceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C87DE05F1C16D0840021BD03 /* ReliveExperience */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C87DE08B1C16D0850021BD03 /* Build configuration list for PBXNativeTarget "ReliveExperience" */;
+			buildPhases = (
+				C87DE05C1C16D0840021BD03 /* Sources */,
+				C87DE05D1C16D0840021BD03 /* Frameworks */,
+				C87DE05E1C16D0840021BD03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReliveExperience;
+			productName = ReliveExperience;
+			productReference = C87DE0601C16D0840021BD03 /* ReliveExperience.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C87DE0761C16D0850021BD03 /* ReliveExperienceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C87DE08E1C16D0850021BD03 /* Build configuration list for PBXNativeTarget "ReliveExperienceTests" */;
+			buildPhases = (
+				C87DE0731C16D0850021BD03 /* Sources */,
+				C87DE0741C16D0850021BD03 /* Frameworks */,
+				C87DE0751C16D0850021BD03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C87DE0791C16D0850021BD03 /* PBXTargetDependency */,
+			);
+			name = ReliveExperienceTests;
+			productName = ReliveExperienceTests;
+			productReference = C87DE0771C16D0850021BD03 /* ReliveExperienceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C87DE0811C16D0850021BD03 /* ReliveExperienceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C87DE0911C16D0850021BD03 /* Build configuration list for PBXNativeTarget "ReliveExperienceUITests" */;
+			buildPhases = (
+				C87DE07E1C16D0850021BD03 /* Sources */,
+				C87DE07F1C16D0850021BD03 /* Frameworks */,
+				C87DE0801C16D0850021BD03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C87DE0841C16D0850021BD03 /* PBXTargetDependency */,
+			);
+			name = ReliveExperienceUITests;
+			productName = ReliveExperienceUITests;
+			productReference = C87DE0821C16D0850021BD03 /* ReliveExperienceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C87DE0581C16D0840021BD03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Kranthi Kumar Gurrala";
+				TargetAttributes = {
+					C87DE05F1C16D0840021BD03 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = M354936K29;
+					};
+					C87DE0761C16D0850021BD03 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = M354936K29;
+						TestTargetID = C87DE05F1C16D0840021BD03;
+					};
+					C87DE0811C16D0850021BD03 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = M354936K29;
+						TestTargetID = C87DE05F1C16D0840021BD03;
+					};
+				};
+			};
+			buildConfigurationList = C87DE05B1C16D0840021BD03 /* Build configuration list for PBXProject "ReliveExperience" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C87DE0571C16D0840021BD03;
+			productRefGroup = C87DE0611C16D0840021BD03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C87DE05F1C16D0840021BD03 /* ReliveExperience */,
+				C87DE0761C16D0850021BD03 /* ReliveExperienceTests */,
+				C87DE0811C16D0850021BD03 /* ReliveExperienceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C87DE05E1C16D0840021BD03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87DE0711C16D0840021BD03 /* LaunchScreen.storyboard in Resources */,
+				C87DE06E1C16D0840021BD03 /* Assets.xcassets in Resources */,
+				C87DE0691C16D0840021BD03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87DE0751C16D0850021BD03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87DE0801C16D0850021BD03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C87DE05C1C16D0840021BD03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87DE06C1C16D0840021BD03 /* ReliveExperience.xcdatamodeld in Sources */,
+				C87DE0661C16D0840021BD03 /* ViewController.swift in Sources */,
+				C87DE0641C16D0840021BD03 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87DE0731C16D0850021BD03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87DE07C1C16D0850021BD03 /* ReliveExperienceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87DE07E1C16D0850021BD03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87DE0871C16D0850021BD03 /* ReliveExperienceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C87DE0791C16D0850021BD03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C87DE05F1C16D0840021BD03 /* ReliveExperience */;
+			targetProxy = C87DE0781C16D0850021BD03 /* PBXContainerItemProxy */;
+		};
+		C87DE0841C16D0850021BD03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C87DE05F1C16D0840021BD03 /* ReliveExperience */;
+			targetProxy = C87DE0831C16D0850021BD03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C87DE0671C16D0840021BD03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C87DE0681C16D0840021BD03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C87DE06F1C16D0840021BD03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C87DE0701C16D0840021BD03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C87DE0891C16D0850021BD03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C87DE08A1C16D0850021BD03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C87DE08C1C16D0850021BD03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReliveExperience/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdsu.cs646.ReliveExperience;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C87DE08D1C16D0850021BD03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReliveExperience/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdsu.cs646.ReliveExperience;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C87DE08F1C16D0850021BD03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ReliveExperienceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdsu.cs646.ReliveExperienceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReliveExperience.app/ReliveExperience";
+			};
+			name = Debug;
+		};
+		C87DE0901C16D0850021BD03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ReliveExperienceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdsu.cs646.ReliveExperienceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReliveExperience.app/ReliveExperience";
+			};
+			name = Release;
+		};
+		C87DE0921C16D0850021BD03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ReliveExperienceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdsu.cs646.ReliveExperienceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ReliveExperience;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C87DE0931C16D0850021BD03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ReliveExperienceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdsu.cs646.ReliveExperienceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ReliveExperience;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C87DE05B1C16D0840021BD03 /* Build configuration list for PBXProject "ReliveExperience" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87DE0891C16D0850021BD03 /* Debug */,
+				C87DE08A1C16D0850021BD03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C87DE08B1C16D0850021BD03 /* Build configuration list for PBXNativeTarget "ReliveExperience" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87DE08C1C16D0850021BD03 /* Debug */,
+				C87DE08D1C16D0850021BD03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C87DE08E1C16D0850021BD03 /* Build configuration list for PBXNativeTarget "ReliveExperienceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87DE08F1C16D0850021BD03 /* Debug */,
+				C87DE0901C16D0850021BD03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C87DE0911C16D0850021BD03 /* Build configuration list for PBXNativeTarget "ReliveExperienceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87DE0921C16D0850021BD03 /* Debug */,
+				C87DE0931C16D0850021BD03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C87DE06A1C16D0840021BD03 /* ReliveExperience.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C87DE06B1C16D0840021BD03 /* ReliveExperience.xcdatamodel */,
+			);
+			currentVersion = C87DE06B1C16D0840021BD03 /* ReliveExperience.xcdatamodel */;
+			path = ReliveExperience.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C87DE0581C16D0840021BD03 /* Project object */;
+}
